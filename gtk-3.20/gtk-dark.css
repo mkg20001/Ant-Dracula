@@ -1,3 +1,4 @@
+/* md lb 600 */
 /* md lb 400 */
 /* GTK NAMED COLORS
    ----------------
@@ -604,7 +605,7 @@ button.suggested-action {
   font-weight: bold;
   color: white;
   outline-color: rgba(255, 255, 255, 0.3);
-  background-color: #bd93f9;
+  background-color: #13b1d5;
   text-shadow: none;
   box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
   .selection-mode button.titlebutton,
@@ -615,12 +616,12 @@ button.suggested-action {
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
-    color: #bd93f9; }
+    color: #13b1d5; }
   
   button.suggested-action:hover {
     color: white;
     outline-color: rgba(255, 255, 255, 0.3);
-    background-color: #bd93f9;
+    background-color: #13b1d5;
     text-shadow: none;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
   
@@ -628,7 +629,7 @@ button.suggested-action {
   button.suggested-action:checked {
     color: white;
     outline-color: rgba(255, 255, 255, 0.3);
-    background-color: #bd93f9;
+    background-color: #13b1d5;
     text-shadow: none;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
   .selection-mode button.titlebutton:backdrop,
@@ -636,7 +637,7 @@ button.suggested-action {
   button.suggested-action.flat:backdrop {
     color: rgba(255, 255, 255, 0.4);
     outline-color: rgba(255, 255, 255, 0.3);
-    background-color: #bd93f9;
+    background-color: #13b1d5;
     text-shadow: none;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
     .selection-mode button.titlebutton:backdrop label,
@@ -664,7 +665,7 @@ button.suggested-action {
     button.suggested-action.flat:backdrop:disabled {
       color: white;
       outline-color: rgba(255, 255, 255, 0.3);
-      background-color: #bd93f9;
+      background-color: #13b1d5;
       text-shadow: none;
       box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
       .selection-mode button.titlebutton:backdrop:disabled label,
@@ -691,12 +692,12 @@ button.suggested-action {
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
-    color: rgba(189, 147, 249, 0.8); }
+    color: rgba(19, 177, 213, 0.8); }
   
   button.suggested-action:disabled {
     color: white;
     outline-color: rgba(255, 255, 255, 0.3);
-    background-color: #bd93f9;
+    background-color: #13b1d5;
     text-shadow: none;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
     
@@ -707,7 +708,7 @@ button.suggested-action {
     button.suggested-action:disabled:checked {
       color: rgba(248, 248, 242, 0.7);
       outline-color: rgba(255, 255, 255, 0.3);
-      background-color: #bd93f9;
+      background-color: #13b1d5;
       text-shadow: none;
       box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
       
@@ -718,7 +719,7 @@ button.suggested-action {
   button.suggested-action {
     color: #fefefe;
     border-color: rgba(0, 0, 0, 0.7);
-    background-color: rgba(189, 147, 249, 0.5);
+    background-color: rgba(19, 177, 213, 0.5);
     background-clip: padding-box;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
     text-shadow: 0 1px black;
@@ -728,7 +729,7 @@ button.suggested-action {
     button.suggested-action:hover {
       color: white;
       border-color: rgba(0, 0, 0, 0.7);
-      background-image: linear-gradient(to bottom, rgba(189, 147, 249, 0.7), rgba(189, 147, 249, 0.7));
+      background-image: linear-gradient(to bottom, rgba(19, 177, 213, 0.7), rgba(19, 177, 213, 0.7));
       background-clip: padding-box;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
       text-shadow: 0 1px black;
@@ -741,7 +742,7 @@ button.suggested-action {
     button.suggested-action:checked {
       color: white;
       border-color: rgba(0, 0, 0, 0.7);
-      background-image: linear-gradient(to bottom, #bd93f9, #bd93f9);
+      background-image: linear-gradient(to bottom, #13b1d5, #13b1d5);
       background-clip: padding-box;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
       text-shadow: none;
@@ -761,7 +762,7 @@ button.suggested-action {
     button.suggested-action:backdrop {
       color: #fefefe;
       border-color: rgba(0, 0, 0, 0.7);
-      background-image: linear-gradient(to bottom, rgba(189, 147, 249, 0.5), rgba(189, 147, 249, 0.5));
+      background-image: linear-gradient(to bottom, rgba(19, 177, 213, 0.5), rgba(19, 177, 213, 0.5));
       background-clip: padding-box;
       box-shadow: none;
       text-shadow: none;
@@ -2319,7 +2320,7 @@ GraniteWidgetsWelcome {
   .storage-bar .fill-block.photo {
     background-color: #ff5555; }
   .storage-bar .fill-block.video {
-    background-color: #bd93f9; }
+    background-color: #13b1d5; }
   .storage-bar .fill-block .legend {
     padding: 12px;
     border-radius: 4px; }
